@@ -244,19 +244,12 @@
     padding-bottom: 80px;
 }
 
-.btn_play_after {
-    position: relative;
-}
+ 
 
-.btn_play_after::after {
-    content: "";
-    position: absolute;
-    background-image: url(../image/svg/play_btn.svg);
-    background-repeat: no-repeat;
-    width: 60px;
-    height: 60px;
-    top: 46%;
-    left: 46%;
+.btn_play_after  {
+     top: 44%;
+     left: 47%;
+
 }
 
 .position_bg {
@@ -773,6 +766,73 @@ transition:  all 400ms ease-in-out;
 .mt--4{
     margin-top: -4px;
 }
+
+/* back to top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
+    cursor: pointer;
+    border: 2px solid var(--white);
+    padding: 12px;
+    border-radius: 50px;
+    transition: all 400ms linear;
+}
+
+
+.link:hover {
+    text-decoration: none;
+    color: var(--bg-color);
+    box-shadow: 0px 0px 20px 0px var(--orange);
+}
+
+/*===================*/
+/* PULSE GROW
+/*===================*/
+
+@-webkit-keyframes pulse-grow-on-hover {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulse-grow-on-hover {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.pulse-grow-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse-grow-on-hover:hover,
+.pulse-grow-on-hover:focus,
+.pulse-grow-on-hover:active {
+    -webkit-animation-name: pulse-grow-on-hover;
+    animation-name: pulse-grow-on-hover;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
 @media (max-width: 1200px) {
     .position_vector {
         top: -37px;
@@ -801,7 +861,13 @@ transition:  all 400ms ease-in-out;
         left: 0;
     }
 }
-
+ @media (max-width: 1100px) {
+    .btn_play_after  {
+        top: 37%;
+        left: 47%;
+   
+   }
+ }
 @media (min-width: 992px) {
     .max-w-351 {
         max-width: 351px;
@@ -986,6 +1052,11 @@ transition:  all 400ms ease-in-out;
     .pb-220{
         padding-bottom: 160px;
     }
+    .btn_play_after  {
+        top: 44%;
+        left: 47%;
+   
+   }
 }
 
 @media (max-width: 768px) {
@@ -1036,6 +1107,10 @@ transition:  all 400ms ease-in-out;
     .pb-220{
         padding-bottom: 100px;
     }
+    .px-100 {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1063,10 +1138,14 @@ transition:  all 400ms ease-in-out;
 .small_box {
     padding: 15px 25px;
 }
-.btn_play_after::after{
-    top: 43%;
-    left: 42%;
+.px-100 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pb-69{
+    padding-bottom: 15px;
     
 }
+ 
 }
  
