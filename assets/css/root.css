@@ -4,10 +4,10 @@
     --fs-md: 16px;
     --fs-lg: 18px;
     --fs-xl: 20px;
-    --fs-xxl: 24px;
+    --fs-xxl: 21px;
     --fs-2xl: 28px;
     --fs-3xl: 32px;
-    --fs-4xl: 37px;
+    --fs-4xl: 33px;
     --fs-5xl: 41px;
 
     /* font-weight */
@@ -195,7 +195,7 @@
         --fs-xxl: 24px;
         --fs-2xl: 28px;
         --fs-3xl: 32px;
-        --fs-4xl: 46px;
+        --fs-4xl: 40px;
         --fs-5xl: 60px;
 
         /* font-weight */
@@ -216,7 +216,7 @@
         --line-33: 33px;
         --line-36: 36px;
         --line-44: 44px;
-        --line-57: 50px;
+        --line-57: 45px;
         --line-115: 80px;
     }
 }

@@ -721,7 +721,7 @@
 }
 
 .accordion-body {
-    padding: 0px 0px 24px 30px;
+    padding: 12px 12px 24px 30px;
 }
 
 .accordion-button::after {
@@ -1124,6 +1124,18 @@
         left: 47%;
 
     }
+
+    .pt-257 {
+        padding-top: 150px;
+    }
+    .pb-313 {
+        padding-bottom: 191px;
+    }
+    .pt-255 {
+        padding-top: 147px;
+    }
+    
+    
 }
 
 @media (max-width: 768px) {
@@ -1131,6 +1143,10 @@
         bottom: -331px;
         left: 0;
         height: 510px;
+    }
+
+    .pt-163 {
+        padding-top: 100px;
     }
 
     .pt-137 {
@@ -1184,6 +1200,23 @@
     .pt-193 {
         padding-top: 103px
     }
+
+    .pt-257 {
+        padding-top: 100px;
+    }
+
+    .pb-197 {
+        padding-bottom: 105px;
+    }
+    .pb-313 {
+        padding-bottom: 165px;
+    }
+    .pt-255 {
+        padding-top: 122px;
+    }
+    .pb-144 {
+        padding-bottom: 94px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1226,8 +1259,55 @@
         padding-bottom: 15px;
 
     }
-    .pt-48{
+
+    .pt-48 {
         padding-top: 39px;
     }
 
+    .pt-60 {
+        padding-top: 40px;
+    }
+
+    .pt-163 {
+        padding-top: 50px;
+    }
+
+    .pt-257 {
+        padding-top: 40px;
+    }
+
+    .pb-197 {
+        padding-bottom: 45px;
+    }
+
+    .cloud_4 {
+        top: -93px;
+        left: 0;
+    }
+
+    .mt-48 {
+        margin-top: 40px;
+    }
+
+    .accordion_next_box {
+        padding: 15px 12px;
+    }
+
+    .mt-40 {
+        margin-top: 30px;
+    }
+
+    .pb-313 {
+        padding-bottom: 79px;
+    }
+    .pt-255 {
+        padding-top: 95px;
+    }
+    .pb-144 {
+        padding-bottom: 95px;
+    }
+    .vector_10 {
+        top: -14px;
+        left: 0;
+    }
 }
