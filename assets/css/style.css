@@ -635,6 +635,22 @@ transition: all 400ms linear;
 .pt-257{
     padding-top: 257px;
 }
+.cloud_4{
+    top: -193px;
+    left: 0;
+}
+ .pt-355{
+padding-top: 355px;
+ }
+ .pt-458{
+    padding-top: 458px;
+ }
+ .pt-257{
+    padding-top: 257px;
+ }
+ .pb-197{
+    padding-bottom: 197px;
+ }
 /* accordion */
 .accordion-button:focus{
     box-shadow: none;
@@ -743,9 +759,20 @@ transition:  all 400ms ease-in-out;
 .pt-163{
     padding-top: 163px;
 }
- 
-
-
+ /* section9 */
+.bg_orange{
+    background: var(--orange);
+}
+.pt-60{
+    padding-top: 60px;
+}
+.play_1_btn{
+    top: 50%;
+    left: 50%;
+}
+.mt--4{
+    margin-top: -4px;
+}
 @media (max-width: 1200px) {
     .position_vector {
         top: -37px;
