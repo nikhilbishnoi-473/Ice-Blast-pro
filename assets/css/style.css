@@ -983,6 +983,9 @@ transition:  all 400ms ease-in-out;
     .pt-60{
         padding-top: 60px;
     }
+    .pb-220{
+        padding-bottom: 160px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1030,6 +1033,9 @@ transition:  all 400ms ease-in-out;
         bottom: -105px;
         left: 0;
     }
+    .pb-220{
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1054,5 +1060,13 @@ transition:  all 400ms ease-in-out;
         display: none;
     }
     
+.small_box {
+    padding: 15px 25px;
+}
+.btn_play_after::after{
+    top: 43%;
+    left: 42%;
+    
+}
 }
  
