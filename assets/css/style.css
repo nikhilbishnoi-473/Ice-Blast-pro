@@ -961,31 +961,99 @@ position: relative;
     mask-composite: exclude;
 }
 .slider_border-r{
-    border-radius: 13px;
-}
-.responsive .slick-current .border_slider.border_slider::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 0 !important;
-    border-radius: 13px;
-    padding: 3px;
-    background: red;
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-}
-.slick-slide.slick-active + .slick-slide,
-.slick-slide.slick-active  .slick-slide{
-
-
+    border-radius: 16px;
+   
 }
  
+.gallery-slide {
+    display: block;
+    width: 360px;
+      
+    height: auto;
+    padding: 0;
+    border-radius: 16px;
+    overflow: hidden;
+     
+}
+.gallery-slide img {
+  width: 100%;
+  
+  height: 100%;
+ 
+  object-fit: cover;
+}
+.gallery-slide.swiper-slide-active {
+  filter: none;
+}
+.swiper-slide.gallery-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active{
+    border: 4px solid #D49E14 !important;
+    background:  transparent !important;
+}
+.swiper-slide{
+    border: 3px solid  var(--white);
+    background: #10192E80 !important;
 
 
-
+}
+.swiper-3d{
+    
+    max-height: 434px;
+}
+.pt-178{
+    padding-top: 178px;
+}
+.pb-253{
+    padding-bottom: 253px;
+}
+.pb-88{
+    padding-bottom: 88px;
+}
+.swiper-actions {
+  margin-top: 20px;
+}
+.swiper-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+   
+}
+ 
+ 
+.gallery-slider .swiper-btn {
+  position: static;
+  height: 22px;
+  margin: 0;
+}
+.gallery-slider .swiper-btn:after {
+    font-size: 22px;
+    color: #000;
+}
+.gallery-slider .swiper-pagination {
+    position: static;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    display: none;
+}
+.gallery-slider .swiper-pagination-bullet {
+  width: 14px;
+  height: 4px;
+  border-radius: 3px;
+  margin: 0 !important;
+}
+/* .gallery-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #000;
+} */
+.cloud_5{
+    top: -20px;
+    left: 0;
+}
+.cloud_6{
+    bottom: -185px;
+    left: 0;
+}
 
 @media (max-width: 1200px) {
     .position_vector {
@@ -1024,6 +1092,14 @@ position: relative;
         left: 47%;
 
     }
+    .pb-253{
+        padding-bottom: 150px;
+    }
+    .cloud_6{
+        bottom: -145px;
+        left: 0;
+    }
+    
 }
 
 @media (min-width: 992px) {
@@ -1131,7 +1207,7 @@ position: relative;
     }
 
     .cross span:nth-child(1) {
-        transform: rotate(42deg) translateY(16px);
+        transform: rotate(41deg) translateY(16px);
         transition: 300ms linear;
     }
 
@@ -1142,12 +1218,12 @@ position: relative;
     }
 
     .cross span:nth-child(3) {
-        transform: rotate(-43deg) translateY(-15px);
+        transform: rotate(318deg) translateY(-15px);
         transition: 300ms linear;
     }
 
     .cross_1 span:nth-child(1) {
-        transform: rotate(42deg) translateY(16px);
+        transform: rotate(43deg) translateY(17px);
         transition: 300ms linear;
     }
 
@@ -1158,7 +1234,7 @@ position: relative;
     }
 
     .cross_1 span:nth-child(3) {
-        transform: rotate(-43deg) translateY(-15px);
+        transform: rotate(-43deg) translateY(-16px);
         transition: 300ms linear;
     }
 
@@ -1238,6 +1314,19 @@ position: relative;
     .pt-110 {
         padding-top: 80px;
     }
+    .pb-253{
+        padding-bottom: 150px;
+    }
+    .cloud_6{
+        bottom: -120px;
+        left: 0;
+    }
+    .pt-178 {
+        padding-top: 107px;
+    }
+    
+    
+    
 }
 
 @media (max-width: 768px) {
@@ -1330,6 +1419,15 @@ position: relative;
     .pt-110 {
         padding-top: 50px;
     }
+    .cloud_6{
+        bottom: -85px;
+        left: 0;
+    }
+    .pt-178 {
+        padding-top: 77px;
+    }
+    
+    
 }
 
 @media (max-width: 575px) {
@@ -1438,4 +1536,16 @@ position: relative;
     .pt-110 {
         padding-top: 2px;
     }
+     .cloud_6{
+        bottom: -45px;
+        left: 0;
+    }
+    .pb-253 {
+        padding-bottom: 106px;
+    }
+    .pt-178 {
+        padding-top: 37px;
+    }
+    
+    
 }

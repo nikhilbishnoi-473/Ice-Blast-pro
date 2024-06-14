@@ -92,3 +92,29 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+var gallerySlider = new Swiper('.gallery-slider', {
+  pagination: {
+     el: '.swiper-pagination',
+     type: 'bullets',
+     clickable: true
+  },
+  navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+  },
+  effect: 'coverflow',
+  loop: true,
+  centeredSlides: true,
+  infinite: true,
+  slidesPerView: 2.5,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 100,
+    depth: 150,
+    modifier: 1.5,
+    infinite: true,
+    slideShadows: false,
+  }
+  });
