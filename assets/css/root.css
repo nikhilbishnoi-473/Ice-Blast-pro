@@ -40,8 +40,12 @@
     --orange: #FA6A00;
     --accordion-bg: #F3F3F4;
     --shadow: #FA6A0099;
+    --heading: #10192E;
 
 
+}
+.heading{
+    color: var(--heading);
 }
 .line-21{
     line-height: var(--line-21);
